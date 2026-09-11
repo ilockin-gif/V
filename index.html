@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victoria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <span class="nav__mark">V</span>
+    <div class="nav__links">
+      <a href="#about">About</a>
+      <a href="#into">Into</a>
+      <a href="#games">Games</a>
+      <a href="#say-hi">Say Hi</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <p class="hero__eyebrow">personal corner of the internet</p>
+    <h1 class="hero__name">Victoria</h1>
+    <p class="hero__line">softball fields, skate parks, dance floors, and Roblox Studio — usually in that order.</p>
+    <div class="hero__deck" aria-hidden="true"></div>
+  </header>
+
+  <main>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>
+        I split my time between things that move fast and things that build slow.
+        On the softball field I pitch and play infield — always want the ball hit
+        to me. At the skatepark I'm chasing a backflip, landing on my feet way less
+        often than I'd like. Dancing is hip hop, mostly filmed for Instagram and
+        TikTok. When I'm not doing any of that, I'm probably deep in a Fortnite
+        match with music playing in the background, deep in Roblox Studio, or just
+        scrolling — send me whatever you found funny.
+      </p>
+    </section>
+
+    <section id="into" class="into">
+      <h2>What I'm Into</h2>
+      <div class="cards">
+        <article class="card">
+          <span class="card__icon">⚾</span>
+          <h3>Softball</h3>
+          <p>Pitcher and infielder. I like the sport for the quiet moments between the loud ones.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon">🛹</span>
+          <h3>Skateboarding</h3>
+          <p>Currently chasing a backflip. Landing on my feet is still optional.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon">💃</span>
+          <h3>Dancing</h3>
+          <p>Hip hop, mostly — I post routines on Instagram and TikTok.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon">📱</span>
+          <h3>Scrolling</h3>
+          <p>A professional pastime. Ask me about whatever's trending this week.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon">🎮</span>
+          <h3>Roblox</h3>
+          <p>Player, builder, and part-time scripter trying to make my own games.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon">💬</span>
+          <h3>Discord</h3>
+          <p>Always in a server, always down to talk about the above.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon">🎧</span>
+          <h3>Music</h3>
+          <p>Always got something playing. Send me your favorite playlist.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon">🪂</span>
+          <h3>Fortnite</h3>
+          <p>Squad up or leave me solo — either way I'm dropping in.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="games" class="games">
+      <h2>Things I'm Building</h2>
+      <p class="games__intro">A running list of Roblox projects — some finished, most still in progress.</p>
+      <ul id="game-list" class="game-list"></ul>
+    </section>
+
+    <section id="say-hi" class="contact">
+      <h2>Say Hi</h2>
+      <p>Find me on Discord, or just send this page to someone who needs to see it.</p>
+      <button id="copy-btn" class="contact__btn" type="button">copy my discord tag</button>
+      <p id="copy-msg" class="contact__msg" role="status"></p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>made by Victoria · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
